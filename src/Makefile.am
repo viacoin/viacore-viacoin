@@ -75,6 +75,8 @@ endif
 .PHONY: FORCE check-symbols check-security
 # bitcoin core #
 BITCOIN_CORE_H = \
+  addressindex.h \
+  spentindex.h \
   addrman.h \
   auxpow/auxpow.h \
   auxpow/consensus.h \
