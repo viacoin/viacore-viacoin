@@ -77,6 +77,7 @@ endif
 BITCOIN_CORE_H = \
   addressindex.h \
   spentindex.h \
+  timestampindex.h \
   addrman.h \
   auxpow/auxpow.h \
   auxpow/consensus.h \
