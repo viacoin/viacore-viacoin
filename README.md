@@ -1,4 +1,4 @@
-Viacoin Core integration/staging tree
+Viacoin Core build with address indexes for use with Viacore
 =====================================
 
 [![Build Status](https://travis-ci.org/viacoin/viacoin.svg?branch=0.13-dev)](https://travis-ci.org/viacoin/viacoin)
