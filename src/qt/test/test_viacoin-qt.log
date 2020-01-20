@@ -1,0 +1,41 @@
+********* Start testing of URITests *********
+Config: Using QtTest library 5.6.1, Qt 5.6.1 (x86_64-little_endian-lp64 static release build; by GCC 4.8.4)
+PASS   : URITests::initTestCase()
+PASS   : URITests::uriTests()
+PASS   : URITests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted
+********* Finished testing of URITests *********
+********* Start testing of PaymentServerTests *********
+Config: Using QtTest library 5.6.1, Qt 5.6.1 (x86_64-little_endian-lp64 static release build; by GCC 4.8.4)
+PASS   : PaymentServerTests::initTestCase()
+QDEBUG : PaymentServerTests::paymentServerTests() PaymentServer::initNetManager: No active proxy server found.
+QDEBUG : PaymentServerTests::paymentServerTests() PaymentServer::processPaymentRequest: Secure payment request from  "testmerchant.org"
+QWARN  : PaymentServerTests::paymentServerTests() PaymentRequestPlus::getMerchant: Payment request: certificate expired or not yet active:  QSslCertificate("3", "03", "LxHILx+N3qwVoAcCmQ5cyw==", (), ("Expired Test Merchant"), QMap(), QDateTime(2013-02-23 21:26:43.000 UTC Qt::TimeSpec(UTC)), QDateTime(2013-02-24 21:26:43.000 UTC Qt::TimeSpec(UTC)))
+QDEBUG : PaymentServerTests::paymentServerTests() PaymentServer::processPaymentRequest: Insecure payment request to  "VocfEwzSJrtkBDyZCu4yHBZFxpL2jQ2LQw"
+QWARN  : PaymentServerTests::paymentServerTests() PaymentRequestPlus::getMerchant: Payment request: certificate expired or not yet active:  QSslCertificate("3", "03", "LxHILx+N3qwVoAcCmQ5cyw==", (), ("Expired Test Merchant"), QMap(), QDateTime(2013-02-23 21:26:43.000 UTC Qt::TimeSpec(UTC)), QDateTime(2013-02-24 21:26:43.000 UTC Qt::TimeSpec(UTC)))
+QDEBUG : PaymentServerTests::paymentServerTests() PaymentServer::processPaymentRequest: Secure payment request from  "testmerchant8.org"
+QWARN  : PaymentServerTests::paymentServerTests() PaymentRequestPlus::getMerchant: Payment request: certificate expired or not yet active:  QSslCertificate("3", "06", "MiZaQ+g9lSHZGuHWkXZG+g==", (), ("Payment Request Intermediate 5"), QMap(), QDateTime(2013-02-23 22:59:51.000 UTC Qt::TimeSpec(UTC)), QDateTime(2013-02-24 22:59:51.000 UTC Qt::TimeSpec(UTC)))
+QDEBUG : PaymentServerTests::paymentServerTests() PaymentServer::processPaymentRequest: Insecure payment request to  "VocfEwzSJrtkBDyZCu4yHBZFxpL2jQ2LQw"
+QWARN  : PaymentServerTests::paymentServerTests() PaymentRequestPlus::getMerchant: Payment request: certificate expired or not yet active:  QSslCertificate("3", "06", "MiZaQ+g9lSHZGuHWkXZG+g==", (), ("Payment Request Intermediate 5"), QMap(), QDateTime(2013-02-23 22:59:51.000 UTC Qt::TimeSpec(UTC)), QDateTime(2013-02-24 22:59:51.000 UTC Qt::TimeSpec(UTC)))
+QWARN  : PaymentServerTests::paymentServerTests() PaymentRequestPlus::getMerchant: SSL error:  certificate signature failure
+QDEBUG : PaymentServerTests::paymentServerTests() PaymentServer::processPaymentRequest: Insecure payment request to  "VocfEwzSJrtkBDyZCu4yHBZFxpL2jQ2LQw"
+QWARN  : PaymentServerTests::paymentServerTests() PaymentRequestPlus::getMerchant: SSL error:  certificate signature failure
+QWARN  : PaymentServerTests::paymentServerTests() PaymentRequestPlus::getMerchant: SSL error:  unable to get local issuer certificate
+QDEBUG : PaymentServerTests::paymentServerTests() PaymentServer::processPaymentRequest: Insecure payment request to  "VocfEwzSJrtkBDyZCu4yHBZFxpL2jQ2LQw"
+QWARN  : PaymentServerTests::paymentServerTests() PaymentRequestPlus::getMerchant: SSL error:  unable to get local issuer certificate
+QWARN  : PaymentServerTests::paymentServerTests() "PaymentServer::verifyNetwork: Payment request network \"test\" doesn't match client network \"main\"."
+QWARN  : PaymentServerTests::paymentServerTests() "PaymentServer::verifyExpired: Payment request expired \"1970-01-01 00:00:01\"."
+QWARN  : PaymentServerTests::paymentServerTests() "PaymentServer::verifyExpired: Payment request expired \"1970-01-01 00:00:00\"."
+QWARN  : PaymentServerTests::paymentServerTests() "PaymentServer::verifySize: Payment request too large (50001 bytes, allowed 50000 bytes)."
+QWARN  : PaymentServerTests::paymentServerTests() "PaymentServer::verifyAmount: Payment request amount out of allowed range (8400000100000000, allowed 0 - 2300000000000000)."
+PASS   : PaymentServerTests::paymentServerTests()
+PASS   : PaymentServerTests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted
+********* Finished testing of PaymentServerTests *********
+********* Start testing of CompatTests *********
+Config: Using QtTest library 5.6.1, Qt 5.6.1 (x86_64-little_endian-lp64 static release build; by GCC 4.8.4)
+PASS   : CompatTests::initTestCase()
+PASS   : CompatTests::bswapTests()
+PASS   : CompatTests::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted
+********* Finished testing of CompatTests *********
